@@ -5,6 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gavin Thomson - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Bierstadt', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #002855;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: #002855;
+            border-bottom: 2px solid #002855;
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: 1rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #002855;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #002855;
+            color: #fff;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Highlighting Contact Section */
+        #contact p a {
+            font-weight: bold;
+            color: #004080;
+            text-decoration: underline;
+        }
+
+        #contact p a:hover {
+            color: #002855;
+            text-decoration: none;
+        }
+
+        #about strong {
+            color: #002855;
+        }
+    </style>
 </head>
 <body>
     <!-- Header Section -->
@@ -20,10 +117,30 @@
     <section id="about" class="container">
         <h2>About Me</h2>
         <p>
-            I am a Global Sourcing Director with over 25 years of experience managing cross-border supply chains, 
-            leading high-performance teams, and driving cost optimization. Fluent in Mandarin and based in Shanghai, 
-            I help businesses scale operations, improve efficiency, and achieve measurable results.
+            I am a <strong>Global Sourcing Director</strong> with over 25 years of experience in procurement, supply chain management, and cross-border operations. Based in <strong>Shanghai</strong>, I specialize in helping businesses optimize their sourcing strategies, reduce costs, and achieve measurable success. Fluent in <strong>Mandarin</strong>, I have led high-performance teams across multiple regions, including <strong>China, Southeast Asia, Latin America, and Australia</strong>. My focus is on delivering exceptional results through effective supplier management and cost optimization.
         </p>
+        <p>
+            Beyond my professional career, I am passionate about mentoring aspiring sourcing managers, leveraging my expertise to help them grow their careers and contribute to their organizations. With deep knowledge of quality assurance protocols like <strong>CTPAT</strong>, <strong>SMETA</strong>, and <strong>BSCI</strong>, I am committed to ensuring excellence in all aspects of procurement and operations.
+        </p>
+    </section>
+
+    <!-- Services and Consulting Section -->
+    <section id="services" class="container">
+        <h2>Services and Consulting</h2>
+        <p>With over 25 years of global sourcing expertise, I provide businesses and professionals with tailored strategies to optimize operations, unlock savings, and achieve measurable results. Whether you’re looking to streamline procurement or develop a leadership team equipped for international challenges, my services are designed to elevate your operations.</p>
+
+        <h3>Consulting Services</h3>
+        <ul>
+            <li><strong>Strategic Sourcing & Procurement</strong> - Redefine your sourcing strategy by cutting through complexity. I specialize in creating direct-to-source relationships and eliminating inefficiencies to drive profitability and build resilient supply chains.</li>
+            <li><strong>Operational Transformation</strong> - From factory relocations to global procurement reorganization, I help businesses enhance efficiency and execute seamless transitions that deliver long-term results.</li>
+            <li><strong>Emerging Market Insights</strong> - Navigate the intricacies of sourcing from diverse regions like Southeast Asia, Latin America, and beyond with a clear roadmap that ensures quality and reliability.</li>
+        </ul>
+
+        <h3>Mentoring Services</h3>
+        <ul>
+            <li><strong>Leadership Coaching</strong> - Inspire and empower your team with actionable guidance and frameworks that foster confident decision-making and dynamic leadership in global sourcing.</li>
+            <li><strong>Career Mentorship</strong> - For professionals in procurement and supply chain management, I offer personalized coaching to help you navigate your career path, build critical skills, and achieve your goals.</li>
+        </ul>
     </section>
 
     <!-- Skills Section -->
@@ -31,7 +148,7 @@
         <h2>My Skills</h2>
         <ul>
             <li><strong>Global Sourcing & Procurement</strong> - Supplier negotiation, cost analysis, emerging markets</li>
-            <li><strong>Leadership & Mentoring</strong> - Coaching teams, developing sourcing professionals</li>
+            <li><strong>Leadership & Mentoring</strong> - Transformation insights, I Coaching teams, developing sourcing professionals</li>
             <li><strong>Cost Optimization</strong> - Multi-million-dollar savings through strategic procurement</li>
             <li><strong>Quality Assurance</strong> - CTPAT, SMETA, and BSCI factory audits</li>
         </ul>
@@ -41,10 +158,9 @@
     <section id="accomplishments" class="container">
         <h2>Key Accomplishments</h2>
         <ul>
-            <li>Achieved USD $10M+ in cost savings through supplier negotiations.</li>
-            <li>Managed a 50-person Shanghai office, improving operational efficiency by 15%.</li>
-            <li>Sourced products globally (China, SEA, LATAM) for top-tier retailers.</li>
-            <li>Led procurement projects delivering high-quality outcomes on time and under budget.</li>
+            <li>Redefined cost-saving strategies by going direct to source and eliminating unnecessary intermediaries, driving measurable impact on profitability.</li>
+            <li>Masterfully navigated global procurement challenges, sourcing products from China, Southeast Asia, and Latin America for top-tier retailers.</li>
+            <li>Orchestrated transformative projects across China, steering operational relocations and elevating sourcing and quality processes to new heights.</li>
         </ul>
     </section>
 
@@ -52,8 +168,8 @@
     <section id="contact" class="container">
         <h2>Contact Me</h2>
         <p>Let’s connect to discuss how I can help your business or career.</p>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>Email: <a href="mailto:gavin.thomson@me.com">gavin.thomson@me.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/gavinthomson/" target="_blank">linkedin.com/in/gavinthomson</a></p>
     </section>
 
     <!-- Footer -->
